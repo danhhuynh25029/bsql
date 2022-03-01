@@ -1,0 +1,44 @@
+{
+ "Tables": [
+  {
+   "Name": "user",
+   "Fields": [
+    {
+     "Name": "name",
+     "Type": "string"
+    },
+    {
+     "Name": "age",
+     "Type": "int"
+    }
+   ],
+   "Columns": [
+    "name",
+    "age"
+   ],
+   "Rows": [
+    {
+     "Datas": null
+    },
+    {
+     "Datas": [
+      "Danh",
+      "10"
+     ]
+    },
+    {
+     "Datas": [
+      "Ton",
+      "10"
+     ]
+    },
+    {
+     "Datas": [
+      "Ton",
+      ""
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -33,7 +33,7 @@ func query(sql *string){
 	switch arr[0]{
 		case "USE":
 			DB = r.Use(arr);
-			fmt.Println(DB);
+			// fmt.Println(DB);
 		case "CREATE":
 			r.Create(arr,DB);
 		case "SELECT":
@@ -44,6 +44,8 @@ func query(sql *string){
 			r.Insert(arr,DB);
 		case "UPDATE":
 			r.Update(arr,DB);
+		case "DROP":
+			r.Drop(arr,DB);
 		default:
 			fmt.Println("query is not exists");
 	}
